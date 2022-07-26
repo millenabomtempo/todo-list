@@ -1,9 +1,9 @@
 import { ClipboardText } from "phosphor-react";
+import { TodoListItem } from "./TodoListItem";
 
 import styles from './TodoList.module.css'
-import TodoListItem from "./TodoListItem";
 
-export default function TodoList() {
+export function TodoList() {
   return (
     <div className={styles.container}>
       <header>

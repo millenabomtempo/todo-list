@@ -2,7 +2,7 @@ import { Trash } from 'phosphor-react'
 
 import styles from './TodoListItem.module.css'
 
-export default function TodoListItem() {
+export function TodoListItem() {
   return (
     <li className={styles.container}>
       <div>
