@@ -1,0 +1,44 @@
+.container {
+  margin-top: 4rem;
+}
+
+.container header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container header strong {
+  color: var(--blue-300);
+  font-size: 0.875rem;
+}
+
+.container header strong + strong {
+  color: var(--purple-50);
+}
+
+.container header strong span {
+  background-color: var(--gray-400);
+  color: var(--gray-100);
+  padding: 2px 8px;
+  border-radius: 15px;
+  font-size: 0.75rem;
+  margin-left: 0.5rem;
+}
+
+.emptyTodoListItems {
+  height: 15.25rem;
+  margin-top: 1.5rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.emptyTodoListItems svg {
+  margin-bottom: 1rem;
+}
+
+.todoListItems {
+  list-style: none;
+}
