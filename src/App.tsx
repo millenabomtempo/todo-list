@@ -1,10 +1,11 @@
+import { Header } from './components/Header'
 import './global.css'
 
 function App() {
   return (
-    <div>
-      TODO LIST
-    </div>
+    <main>
+      <Header />
+    </main>
   )
 }
 
