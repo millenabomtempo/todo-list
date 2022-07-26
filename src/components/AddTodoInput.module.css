@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  margin-top: calc(0px - 1.688rem);
+}
+
+.container input {
+  width: 100%;
+  height: 3.375rem;
+  background-color: var(--gray-500);
+  padding: 0 1rem;
+  margin-right: 0.5rem;
+  border: 0;
+  border-radius: 8px;
+  color: var(--gray-100);
+}
+
+.container input::placeholder {
+  color: var(--gray-300);
+}
+
+.container input:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--purple-300);
+}
+
+.container button {
+  padding: 1rem;
+  background-color: var(--blue-400);
+  color: var(--gray-100);
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background-color 0.3s ease-in-out;
+}
+
+.container button:hover {
+  background-color: var(--blue-300);
+}
+
+.container button svg {
+  margin-left: 0.5rem;
+}
