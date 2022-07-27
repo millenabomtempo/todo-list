@@ -11,6 +11,7 @@ interface TodoListItemProps {
 }
 
 export function TodoListItem({ task, onHandleDeleteTask, onHandleUpdateTaskStatus }: TodoListItemProps) {
+  const isCompleted = task.isCompleted
 
   function handleUpdateTaskStatus() {
     onHandleUpdateTaskStatus(task.id)
@@ -29,7 +30,9 @@ export function TodoListItem({ task, onHandleDeleteTask, onHandleUpdateTaskStatu
         onChange={handleUpdateTaskStatus}
         onClick={handleUpdateTaskStatus}
       />
-      <p>{task.title}</p>
+      <p 
+        className={isCompleted ? styles.completedTask : ''}
+      >{task.title}</p>
       <button
         onClick={handleDeleteTask}
       >

@@ -14,8 +14,6 @@ interface TodoListProps {
 }
 
 export function TodoList({ isListEmpty, tasks, onHandleDeleteTask, onHandleUpdateTaskStatus, totalCompleted }: TodoListProps) {
-  console.log(totalCompleted);
-
   return (
     <div className={styles.container}>
       <header>

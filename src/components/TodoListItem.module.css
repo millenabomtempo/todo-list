@@ -17,7 +17,13 @@
 
 .container p {
   max-width: 39.5rem;
+  width: 100%;
   color: var(--gray-100);
+}
+
+p.completedTask {
+  color: var(--gray-300);
+  text-decoration: line-through;
 }
 
 .container button {
