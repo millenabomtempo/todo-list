@@ -1,4 +1,5 @@
 # Todo List
+![capa](https://user-images.githubusercontent.com/47898033/181266897-17d85086-2fcc-4dfa-942b-d02b279df8dc.png)
 
 ![Badge](https://img.shields.io/badge/since-2022-blue?style=flat-square)
 ![Badge](https://img.shields.io/badge/status-finalizado-green?style=flat-square)
@@ -36,7 +37,7 @@ $ yarn install or npm install
 # Run application
 $ yarn dev or npm run dev
 
-# The aplication will init at port:5173 - access http://localhost:3000/5173
+# The aplication will init at port:5173 - access http://localhost:5173
 ```
 
 <p align="center"> Made with :heart: by <a href="https://github.com/millenabomtempo">Millena Bomtempo</a></p>
